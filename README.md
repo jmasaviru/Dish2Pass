@@ -14,7 +14,7 @@
   5. [Contribution](#contribution)
   6. [Questions](#questions)
 
-  ## Installation/Applications
+  ## Installation/Technologies
   * Node
   * Express
   * Handlebars.js
@@ -27,14 +27,14 @@
 
   ![Generated Menu Screenshot (2EDIT!)](./Assets/sampleRecipeTortellini.jpg)
 
-  >The recipe(s) above has/have been generated with the corresponding user input of ingredients. 
+  >The recipe(s) above has/have been generated with the corresponding user input of ingredients (2EDIT!). 
 
   ## License
   MIT
   *  ![License badge](https://img.shields.io/badge/License-MIT-green)
  
   ## Tests
-  N/A
+  (2EDIT!)
 
   ## Contribution
   - [Alexandra Stricklin](https://github.com/stricklin927)(Front-end)
