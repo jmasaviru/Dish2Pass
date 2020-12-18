@@ -41,6 +41,7 @@
   - [Brian Short](https://github.com/brianrshort) (Back-end)
   - [Imari Pickens](https://github.com/Picke1id) (Front-end)
   - [James Masaviru](https://github.com/jmasaviru) (Back-end)
+  - [Tynesia Davis](https://github.com/Sivad13) (Front-end)
   
   ## Questions
   * If you have questions, email me at: jmasaviru@gmail.com
