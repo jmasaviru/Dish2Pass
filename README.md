@@ -4,23 +4,31 @@
   An application that generates delightful recipes for the holiday season or any type of occassion/purpose using the ingredients provided by the user.
   
   ## Table of Contents
-  1. [Installation/Technologies](#installation/technologies)
+  1. [Technologies](#technologies)
   2. [Usage](#usage)
-  3. [Database](#database)
-  4. [Tests](#testing)
-  5. [Deployment](#deployment)
-  6. [Contribution](#contribution)
-  7. [License](#license)
-  8. [Questions](#questions)
+  3. [Contribution](#contribution)
+  4. [License](#license)
+  5. [Questions](#questions)
 
-  ## Installation/Technologies
+  ## Technologies
+
+  ### Front-end
+  * Handlebars
+
+  ### Back-end
   * Node
   * Express
-  * Handlebars.js
-  * MySQL 
   * Sequelize
-  * Heroku
   * ESLint
+
+  ### Database
+  * MySQL
+
+  ### Testing
+  * Travis CI
+
+  ### Deployment
+  * Heroku
 
   ## Usage
   The user simply navigates to the website and registers. The user then inputs the ingredients available/accessible or which he/she intends to use. Recipes are generated via an API call and the resulting recipes are saved in the favourites page.
@@ -29,14 +37,8 @@
 
   >The recipe(s) above has/have been generated with the corresponding user input of ingredients (2EDIT!). 
 
-  ## Database
-  * MySQL
- 
-  ## Tests
-  * Travis
-
   ## Contribution
-  - [Alexandra Stricklin](https://github.com/stricklin927)(Front-end)
+  - [Alexandra Stricklin](https://github.com/stricklin927) (Front-end)
   - [Brian Short](https://github.com/brianrshort) (Back-end)
   - [Imari Pickens](https://github.com/Picke1id) (Front-end)
   - [James Masaviru](https://github.com/jmasaviru) (Back-end)
