@@ -1,3 +1,7 @@
+//RecipeTwo table for the dish2pass database.
+//This table requires no user and no foreign key, and will be used and developed
+//to record all suggested recipes that all users have logged/recorded.
+
 module.exports = function(sequelize, DataTypes) {
   const RecipeTwo = sequelize.define("RecipeTwo", {
     recipeId: {
@@ -13,5 +17,6 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
+  //Return the RecipeTwo object
   return RecipeTwo;
 };

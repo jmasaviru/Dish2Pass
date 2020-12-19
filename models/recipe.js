@@ -1,3 +1,7 @@
+//Recipe table for the dish2pass database.
+//This table requires a user, and will be used and developed
+//if/when the user session enhancement becomes viable.
+
 module.exports = function(sequelize, DataTypes) {
   const Recipe = sequelize.define("Recipe", {
     recipeId: {
@@ -13,6 +17,7 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
+  //Here is the association with the user table
   Recipe.associate = function(models) {
     Recipe.belongsTo(models.User, {
       foreignKey: {
@@ -21,5 +26,6 @@ module.exports = function(sequelize, DataTypes) {
     });
   };
 
+  //Returning the Recipe model object
   return Recipe;
 };
