@@ -4,6 +4,11 @@ const session = require("express-session");
 // Requiring passport as we've configured it
 const passport = require("./config/passport");
 
+const exphbs = require("express-handlebars");
+
+// Import routes and give the server access to them.
+const routes = require("./controllers/controller.js");
+
 // Setting up port and requiring models for syncing
 const PORT = process.env.PORT || 8080;
 const db = require("./models");
@@ -21,13 +26,9 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Set Handlebars.
-var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-
-// Import routes and give the server access to them.
-var routes = require("./controllers/controller.js");
 
 // Requiring our routes
 //require("./routes/html-routes.js")(app);
