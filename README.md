@@ -2,6 +2,8 @@
 
  ## Description
   An application that generates delightful recipes for the holiday season or any type of occassion/purpose using the ingredients provided by the user.
+
+[Click here](https://jmasaviru.github.io/Dish2Pass/) to see a live demo of this project.
   
   ## Table of Contents
   1. [Technologies](#technologies)
