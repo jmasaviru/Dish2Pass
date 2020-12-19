@@ -1,4 +1,4 @@
--- Drops the blogger if it exists currently --
+-- Drops the database if it exists currently --
 DROP DATABASE IF EXISTS dish2pass_db;
 
 -- Creates the "dish2passDB" database --
