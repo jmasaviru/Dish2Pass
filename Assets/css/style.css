@@ -1,6 +1,6 @@
 /* Hero & Slogan */
 .hero {
-    height: 500px;
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/spoonspices.jpg");
@@ -12,11 +12,30 @@
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
-    padding: 20px;
+    padding-top: 80px;
 }
-
 /* END Hero & Slogan */
 
+
+/* How It Works Section */
+#hiw {
+    height: 200px;
+}
+
+#howitworks {
+    text-align: center;
+}
+
+#glyphicon {
+    text-align: center;
+}
+
+#icon {
+    font-size: 40px;
+}
+/* END How It Works Section */
+
+/* Family Eating Section */
 .family {
     height: 500px;
     width: 100%;
@@ -25,6 +44,7 @@
     background-size: cover;
     background-position: center;
 }
+/* END Family Eating Section */
 
 
 
