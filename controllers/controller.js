@@ -3,11 +3,17 @@ const express = require("express");
 const router = express.Router();
 
 // Import the model (cat.js) to use its database functions.
-const recipeTwo = require("../models/recipeTwo.js");
+//const RecipeTwo = require("../models/recipeTwo.js");
+
+router.get("/", (req, res) => {
+  res.render("index");
+});
+
+/*
 
 // Create all our routes and set up logic within those routes where required.
-router.get("/", (req, res) => {
-  recipeTwo.all(data => {
+router.get("/suggestions", (req, res) => {
+  RecipeTwo.all(data => {
     const hbsObject = {
       recipetwos: data
     };
@@ -17,7 +23,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/api/recipeTwos", (req, res) => {
-  recipeTwo.create(
+  RecipeTwo.create(
     ["recipeID", "recipe"],
     [req.body.recipeID, req.body.recipe],
     result => {
@@ -26,5 +32,7 @@ router.post("/api/recipeTwos", (req, res) => {
     }
   );
 });
+
+*/
 
 module.exports = router;

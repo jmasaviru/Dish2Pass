@@ -4,6 +4,7 @@ const session = require("express-session");
 // Requiring passport as we've configured it
 const passport = require("./config/passport");
 
+const path = require("path");
 const exphbs = require("express-handlebars");
 
 // Import routes and give the server access to them.
@@ -29,6 +30,10 @@ app.use(passport.session());
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+app.set("views", path.join(__dirname, "views"));
+// app.get("/", (req, res) => {
+//   res.render("index");
+// });
 
 // Requiring our routes
 //require("./routes/html-routes.js")(app);
@@ -36,7 +41,7 @@ app.set("view engine", "handlebars");
 app.use(routes);
 
 // Syncing our database and logging a message to the user upon success
-db.sequelize.sync({ force: true }).then(() => {
+db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(
       "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
