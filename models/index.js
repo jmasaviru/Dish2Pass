@@ -1,3 +1,5 @@
+//Boilerplate index.js to direct app
+
 'use strict';
 
 var fs        = require('fs');
