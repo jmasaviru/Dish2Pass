@@ -1,5 +1,5 @@
 {
-  "name": "Dish2Pass",
+  "name": "dish2pass",
   "version": "1.0.0",
   "description": "Recipe search app",
   "main": "server.js",
