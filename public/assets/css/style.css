@@ -1,6 +1,33 @@
+* {
+
+}
+
+/* Navigation Bar */
+#logotext {
+    font-family: 'Kalam', cursive;
+    font-size: 50px;
+    color: rgb(222, 113, 45);
+}
+
+#searchbar {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#searchbtn  {
+    border-radius: 30px;
+    color: rgb(222, 113, 45);
+}
+
+#suggest {
+    color: rgb(222, 113, 45);
+    font-size: 20px;
+}
+/* END Navigation Bar */
+
 /* Hero & Slogan */
 .hero {
-    height: 400px;
+    height: 450px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("/assets/images/spoonspices.jpg");
@@ -10,7 +37,7 @@
 
 .slogan {
     text-align: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     padding-top: 80px;
 }
@@ -19,30 +46,44 @@
 
 /* How It Works Section */
 #hiw {
-    height: 200px;
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#howitworks {
+#hiwTitle {
     text-align: center;
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#hiwInfo {
+    text-align: center;
+    color: black;
 }
 
 #glyphicon {
-    text-align: center;
-}
-
-#icon {
     font-size: 40px;
+    color: rgb(222, 113, 45);
+    padding: 15px;
 }
 /* END How It Works Section */
 
 /* Family Eating Section */
 .family {
-    height: 500px;
+    height: 700px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("/assets/images/dinnertable.jpg");
     background-size: cover;
     background-position: center;
+}
+#aboutapp {
+    padding: 30px;
+    margin-left: 100px;
+    margin-top: 70px;
+    
 }
 /* END Family Eating Section */
 
