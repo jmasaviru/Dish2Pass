@@ -35,7 +35,7 @@
   ## Usage
   The user simply navigates to the website and registers. The user then inputs the ingredients available/accessible or which he/she intends to use. Recipes are generated via an API call and the resulting recipes are saved in the favourites page.
 
-  ![Generated Menu Screenshot (2EDIT!)](/public/assets/images/sampleRecipeTortellini.jpg)
+  ![Generated Menu Screenshot (2EDIT!)](/public/Assets/images/sampleRecipeTortellini.jpg)
 
   >The recipe(s) above has/have been generated with the corresponding user input of ingredients (2EDIT!). 
 
