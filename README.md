@@ -58,4 +58,3 @@
 
 * Dish2Pass GitHub repository URL: (https://github.com/jmasaviru/Dish2Pass)
 
-* Dish2Pass Running Agenda: https://docs.google.com/document/d/1cm6-9fXuXhMhVgdy8pdm5ezz5_pK4LkmUD3iC3lq9Mo/edit
