@@ -3,7 +3,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/public/Assets/images/spoonspices.jpg");
+    background-image: url("/assets/images/spoonspices.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -40,7 +40,7 @@
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/public/assets/images/dinnertable.jpg");
+    background-image: url("/assets/images/dinnertable.jpg");
     background-size: cover;
     background-position: center;
 }
