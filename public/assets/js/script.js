@@ -51,7 +51,38 @@ function getRecipe(itemOne, itemTwo, itemThree) {
     console.log(
       `Recipe ID: ${recipeId}. Recipe Title: ${recipeTitle}. Recipe Image URL: ${recipeImage}. First Ingredient Name: ${ingredientOneName}. Amount: ${ingredientOneAmount} ${ingredientOneAmountUnits}. Full First Ingredient Description: ${ingredientOneOriginal}. Ingredient Image: ${ingredientOneImageURL}.`
     );
+
+    fullRecipe(response[0].id);
   });
 }
 
-getRecipe();
+function fullRecipe(num) {
+  const fullerRecipe = `https://api.spoonacular.com/recipes/${num}/information&apiKey=${config.MY_KEY}`;
+  $.ajax({
+    url: fullerRecipe,
+    method: "GET"
+  }).then(response => {
+    console.log(response);
+
+    //Might be nice to display information on whether it is vegetarian or not.
+    const isVegetarian = response.vegetarian;
+
+    //Might be nice to display information on whether it is vegan or not
+    const isVegan = response.vegan;
+
+    //Might be nice to display information on whether it is sustainable or not
+    const isSustainable = response.sustainable;
+
+    //Here's the recipe summary; probably important to display.
+    const recipeSummary = response.summary;
+
+    //Here's the recipe instructions; NOTE--very long!
+    //var recipeInstructions = response.instruction;
+
+    console.log(
+      `Is it vegetarian? ${isVegetarian}. Is it vegan? ${isVegan}. Is it sustainable? ${isSustainable}. Here's the summary: ${recipeSummary}.`
+    );
+  });
+}
+
+getRecipe("pears", "flour", "sugar");
