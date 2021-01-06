@@ -7,13 +7,19 @@ var path      = require('path');
 var Sequelize = require('sequelize');
 var basename  = path.basename(module.filename);
 var env       = process.env.NODE_ENV || 'development';
-var config    = require(__dirname + '/../config/config.json')[env];
+var config    = require(__dirname + '/../config/config.json')//[env];
 var db        = {};
+
+//console.log(env);
+//console.log(config);
+//console.log(config.development.dialect);
 
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
 } else {
-  var sequelize = new Sequelize(config.database, config.username, config.password, config.dialect);
+  var sequelize = new Sequelize(config.development.database, config.development.username, config.development.password, {
+    host: 'localhost',
+    dialect: config.development.dialect});
 }
 
 fs
