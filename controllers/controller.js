@@ -1,7 +1,10 @@
 const express = require("express");
+//const { DataTypes } = require("sequelize/types");
 
 const router = express.Router();
 
+const db = require("../models/index");
+//const recipes = db[recipeTwo];
 //const RecipeTwo = require("../models/recipeTwo.js");
 
 router.get("/", (req, res) => {
@@ -19,19 +22,19 @@ router.get("/search", (req, res) => {
   //res.render("search");
 });
 
-/*
-
-// Create all our routes and set up logic within those routes where required.
-router.get("/suggestions", (req, res) => {
-  RecipeTwo.all(data => {
+router.get("/api/suggestions", (req, res) => {
+  db.RecipeTwo.findAll({}).then(data => {
     const hbsObject = {
       recipetwos: data
     };
     console.log(hbsObject);
-    res.render("index", hbsObject);
+    //console.log(hbsObject.recipeTwos[0].dataValues);
+    res.json(hbsObject);
+    //res.render("suggestions", { layout: "main" });
   });
 });
 
+/*
 router.post("/api/recipeTwos", (req, res) => {
   RecipeTwo.create(
     ["recipeID", "recipe"],
