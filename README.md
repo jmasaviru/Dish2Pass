@@ -3,7 +3,7 @@
  ## Description
   An application that generates delightful recipes for the holiday season or any type of occassion/purpose using the ingredients provided by the user.
 
-[Click here](Heroku Link Here!!!) to see a live demo of this project.
+[Click here](https://aqueous-oasis-84460.herokuapp.com) to see a live demo of this project.
   
   ## Table of Contents
   1. [Technologies](#technologies)
@@ -15,6 +15,7 @@
   ## Technologies
 
   ### Front-end
+  * ZURB Foundation
   * Handlebars
 
   ### Back-end
