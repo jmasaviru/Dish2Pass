@@ -12,7 +12,7 @@ const path = require("path");
 const exphbs = require("express-handlebars");
 
 // Import routes via controller
-const routes = require("./controllers/controller.js");
+const router = require("./controllers/controller.js");
 
 // Setting up port and syncing models
 const PORT = process.env.PORT || 8080;
@@ -36,14 +36,11 @@ app.use(passport.session());
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname, "views"));
-// app.get("/", (req, res) => {
-//   res.render("index");
-// });
 
 // Requiring our routes
 //require("./routes/html-routes.js")(app);
 //require("./routes/api-routes.js")(app);
-app.use(routes);
+app.use(router);
 
 // Syncing our recipe database and logging a success message including port number to user
 db.sequelize.sync().then(() => {
