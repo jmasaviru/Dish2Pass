@@ -5,7 +5,18 @@ const router = express.Router();
 //const RecipeTwo = require("../models/recipeTwo.js");
 
 router.get("/", (req, res) => {
-  res.render("index");
+  res.render("index", { layout: "main" });
+  //res.render("index");
+});
+
+router.get("/suggestions", (req, res) => {
+  res.render("suggestions", { layout: "main" });
+  //res.render("suggestions");
+});
+
+router.get("/search", (req, res) => {
+  res.render("search", { layout: "main" });
+  //res.render("search");
 });
 
 /*
