@@ -34,18 +34,39 @@ router.get("/api/suggestions", (req, res) => {
   });
 });
 
-/*
-router.post("/api/recipeTwos", (req, res) => {
-  RecipeTwo.create(
-    ["recipeID", "recipe"],
-    [req.body.recipeID, req.body.recipe],
-    result => {
-      // Send back the ID of the new quote
-      res.json({ id: result.insertId });
-    }
-  );
+router.post("/api/recipes", (req, res) => {
+  db.RecipeTwo.create(req.body).then(recipes => {
+    const data = {
+      recipes: recipes
+    };
+    res.json(data);
+  });
 });
 
-*/
+// router.post("/api/recipes", (req, res) => {
+//   db.RecipeTwo.create(
+//     ["recipeID", "recipe"],
+//     [req.body.recipeID, req.body.recipe],
+//     result => {
+//       // Send back the ID of the new quote
+//       res.json({ id: result.insertId });
+//     }
+//   );
+// });
+
+// router.post("/api/recipes", function (req, res) {
+//   console.log(req.body);
+//   db.RecipeTwo.create(req.body).then(function (recipes) {
+//     var data = {
+//       dbOrders: dbOrders
+//     };
+//     res.json(data);
+//   }).catch(function (error) {
+//     var errormessage = {
+//       error: error.original.sqlMessage
+//     };
+//     res.json(errormessage);
+//   });
+// });
 
 module.exports = router;
