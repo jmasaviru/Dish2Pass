@@ -1,0 +1,204 @@
+.top-bar {
+    background-color: #000e44
+    
+}
+
+a {
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu {
+    background-color: #000e44!important;
+    
+}
+
+li {
+    background-color:#000e44;
+    
+}
+
+.input {
+    border-radius: 6px;
+    margin-top: 21px;
+    width: 400px;
+}
+
+#search {
+    background-image: linear-gradient(#000e44, #3dadff)
+}
+
+.button  {
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.navLogo {
+    width: 195px; 
+    height: 55px;
+    margin-top: 0px;
+}
+
+
+.hero {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./herodish4.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.slogan {
+    color: white;
+    font-family: 'Russo One';
+}
+
+#h1 {
+    text-align: left;
+    padding-top: 80px;
+    margin-left: 250px;
+    font-size: 40px;
+}
+
+#h2 {
+    text-align: center;
+    font-size: 70px;
+}
+
+#h3 {
+    text-align: right;
+    margin-right: 300px;
+    font-size: 40px;
+}
+
+#hiw {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+   
+
+}
+
+#howitworks {
+    padding-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+#glyphicon {
+    text-align: center;
+}
+
+#icon {
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+.subtitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descr{
+    font-size: 20px;
+}
+
+.image1 {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("./Fruitcake.jpg");
+    
+}
+
+.image2 {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("./mushrooms.jpg");
+}
+
+.image3 {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("./lasagna.jpg");
+}
+
+.image4 {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("./meatballs.jpg");
+}
+
+.orbit-caption {
+    position: absolute;
+    opacity: .6;
+    text-align: center;
+    width: 45%;
+    height:35%;
+    background-color: white;
+    color: black;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    margin: 0 auto; 
+    border: 6px double black;
+  
+    
+}
+
+#recipeTitle {
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+#recipeImage {
+    
+}
+
+#recipeName {
+    font-size: 25px;   
+    text-align: left;
+}
+
+
+#sourceLink {
+    color: black;
+}
+
+#instructions {
+    color: black;
+    
+}
+
+#timeClock {
+    float: left;
+}
+
+hr {
+    width: 100%;
+}
+
+#socialMedia {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(#000e44, #3dadff);
+    color: white; 
+    font-size: 20px;
+    padding-top: 25px;
+}
