@@ -5,22 +5,88 @@
     <div class="grid-x grid-padding-x">
 
         <!-- Card -->
+        {{#each recipetwos}}
         <div class="large-4 medium-6 small-12 cell">
             <div class="card" style="width: 300px;">
                 <div class="card-section">
                     <!-- Recipe Title -->
                     <div class="card-divider">
-                        <h4> {{recipeTitle}} </h4>
+                        <h4> {{this.dataValues.recipe}} </h4>
                     </div>
                     <!-- Image -->
-                    {{recipeImage}}
+                    
                     <!-- Instructions -->
                     <div class="card-section">
-                    <p>{{recipeInstructions}}</p>
+                    <!--<p></p>-->
                     </div>
                 </div>
             </div>
         </div>
-
+        {{/each}}
 
 {{> footer}}
+
+
+
+<script>
+/*
+
+
+var request = new XMLHttpRequest();
+request.open('GET', '/api/suggestions', true);
+
+request.onload = function() {
+  if (this.status >= 200 && this.status < 400) {
+    // Success!
+    var data = JSON.parse(this.response);
+    console.log(data.recipetwos[0]);
+  } else {
+    // We reached our target server, but it returned an error
+
+  }
+};
+
+request.onerror = function() {
+  // There was a connection error of some sort
+};
+
+request.send();
+
+
+
+
+
+
+/*
+$.ajax({
+        url: "/api/suggesions",
+        success: function(res){
+            console.log(res);
+        }
+});*/
+
+/*function getRecipe2(id) {
+  const options = {
+    hostname: "/",
+    port: 8080,
+    path: `/api/suggesions`,
+    method: "GET"
+  };
+
+  const req = http.request(options, res => {
+    console.log(`statusCode: ${res.statusCode}`);
+    console.log(res);
+    res.on("data", d => {
+      console.log(d);
+      process.stdout.write(d);
+    });
+  });
+
+  req.on("error", error => {
+    console.error(error);
+  });
+
+  req.end();
+*/
+
+</script> 
