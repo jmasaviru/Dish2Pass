@@ -1,14 +1,14 @@
 $(document).ready(() => {
   $("#post").on("click", event => {
-    console.log("click");
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
+    console.log("click");
 
     const newRecipe = {
       spoonacularId: 12345,
-      name: $("#name").val(),
-      imageUrl: $("#image").val(),
-      summary: $("#summary").val(),
+      name: $("#name").data("id"),
+      imageUrl: $("#image").data("id"),
+      summary: $("#summary").data("id"),
       type: "favorite"
     };
 
