@@ -4,16 +4,32 @@
 
 module.exports = function(sequelize, DataTypes) {
   const RecipeTwo = sequelize.define("RecipeTwo", {
-    recipeId: {
+    spoonacularId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         len: [1]
       }
     },
-    recipe: {
+    name: {
       type: DataTypes.STRING,
       allowNull: true
+    },
+    imageUrl: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    summary: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: sequelize.literal("NOW()")
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      defaultValue: sequelize.literal("NOW()")
     }
   });
 
