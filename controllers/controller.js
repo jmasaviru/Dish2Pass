@@ -19,6 +19,8 @@ router.get("/suggestions", (req, res) => {
       recipetwos: data
     };
     console.log(hbsObject);
+    //const object = hbsObject.recipetwos;
+    //console.log(object);
     res.render("suggestions", hbsObject);
   });
 });
@@ -32,7 +34,8 @@ router.get("/api/suggestions", (req, res) => {
     const hbsObject = {
       recipetwos: data
     };
-    console.log(hbsObject);
+    const object = hbsObject.recipetwos;
+    console.log(object);
     res.json(hbsObject);
   });
 });
