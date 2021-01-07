@@ -22,7 +22,9 @@
 
                     <!-- Instructions -->
                     <div class="card-section">
-                    <p>{{this.dataValues.summary}}</p>
+                      {{#if this.dataValues.summary}}
+                        <p>{{{this.dataValues.summary}}}</p>
+                      {{/if}}
                     </div>
                 </div>
             </div>
