@@ -9,12 +9,17 @@
         <div class="large-4 medium-6 small-12 cell">
             <div class="card" style="width: 300px;">
                 <div class="card-section">
+
                     <!-- Recipe Title -->
                     <div class="card-divider">
                         <h4> {{this.dataValues.name}} </h4>
                     </div>
+
                     <!-- Image -->
-                    {{this.dataValues.imageUrl}}
+                    {{#if img_src}}
+                      <img src="{{{this.dataValues.imageUrl}}}" alt=""/>
+                    {{/if}}
+
                     <!-- Instructions -->
                     <div class="card-section">
                     <p>{{this.dataValues.summary}}</p>
