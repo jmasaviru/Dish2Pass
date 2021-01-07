@@ -43,7 +43,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(router);
 
 // Syncing our recipe database and logging a success message including port number to user
-db.sequelize.sync( { force: true }).then(() => {
+db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(
       "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
