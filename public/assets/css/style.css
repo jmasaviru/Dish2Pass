@@ -16,10 +16,15 @@
 }
 
 #suggest {
-    color:white;
     font-size: 20px;
+    font-weight: 500;
     border-radius: 30px;
+    padding: 1px;
 }
+#suggestText {
+    color: white;
+}
+
 /* END Navigation Bar */
 
 /* Hero & Slogan */
