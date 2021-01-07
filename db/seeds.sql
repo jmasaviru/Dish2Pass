@@ -1,7 +1,8 @@
 USE dish2pass_db;
 
-INSERT INTO RecipeTwos (recipeId, recipe)
-VALUES (137289, "Citrus-Rubbed Whole Duck"), 
-(23396, "Crispy Duck"),
-(619797, "Roasted Duck with Apples"),
-(485680, "Sweet and Sour Brisket");
+INSERT INTO RecipeTwos (spoonacularId, name, imageUrl, summary)
+VALUES (137289, "Citrus-Rubbed Whole Duck", "https://spoonacular.com/recipeImages/137289-312x231.jpg", "Citrus-Rubbed Whole Duck might be just the main course you are searching for. One serving contains <b>3152 calories</b>, <b>90g of protein</b>, and <b>298g of fat</b>. This recipe serves 3."), 
+(23396, "Crispy Duck", "https://spoonacular.com/recipeImages/23396-312x231.jpg", "For <b>$1.61 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about <b>45 minutes</b>."),
+(196282, "The Ultimate Turducken", "https://spoonacular.com/recipeImages/196282-312x231.jpg", "A mixture of chicken, duck, bulk sausage meat, and a handful of other ingredients are all it takes to make this recipe so tasty. All things considered, we decided this recipe <b>deserves a spoonacular score of 81%</b>."),
+(74720, "Slow-roasted Duck With Spiced Sour Cherry Sauce", "https://spoonacular.com/recipeImages/74720-312x231.jpg", "This gluten free recipe has <b>621 calories</b>, <b>15g of protein</b>, and <b>58g of fat</b> per serving. Head to the store and pick up pasture-raised duck, ghee, onion, and a few other things to make it today."),
+(619797, "Roasted Duck with Apples", "https://spoonacular.com/recipeImages/619797-312x231.jpg", "You could follow this main course with the <a href=\"https://spoonacular.com/recipes/candy-corn-cupcakes-63881\">Candy Corn Cupcakes</a> as a dessert. It is a good option if you're following a <b>caveman, gluten free, dairy free, and primal</b> diet. ");
