@@ -11,18 +11,18 @@
 
                     <!-- Recipe Title -->
                     <div class="card-divider">
-                        <h4 id="name" value="{{this.dataValues.name}}"> {{this.dataValues.name}} </h4>
+                        <h4 id="name" data-id="{{{this.dataValues.name}}}"> {{this.dataValues.name}} </h4>
                     </div>
 
                     <!-- Image -->
                     {{#if this.dataValues.imageUrl}}
-                      <img id="image" value="{{this.dataValues.imageUrl}}" src="{{{this.dataValues.imageUrl}}}" alt=""/>
+                      <img id="image" data-id="{{{this.dataValues.imageUrl}}}" src="{{{this.dataValues.imageUrl}}}" alt=""/>
                     {{/if}}
 
                     <!-- Instructions -->
                     <div class="card-section">
                       {{#if this.dataValues.summary}}
-                        <p id="summary" value"{{this.dataValues.summary}}">{{{this.dataValues.summary}}}</p>
+                        <p id="summary" data-id="{{{this.dataValues.summary}}}">{{{this.dataValues.summary}}}</p>
                       {{/if}}
                     </div>
                     <button type="button" class="button warning" id="post"><bold><em>FAVE</em></bold></button>
