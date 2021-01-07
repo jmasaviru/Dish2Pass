@@ -59,4 +59,3 @@
 * Video link for demonstration (2EDIT!): https://drive.google.com/file/d/1ZaSaQK2tSm5JrfMJraZW_0KiJDIBa2vk/view
 
 * Dish2Pass GitHub repository URL: (https://github.com/jmasaviru/Dish2Pass)
-
