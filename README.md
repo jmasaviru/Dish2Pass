@@ -1,9 +1,11 @@
 # Dish2Pass
+![Homepage1](/public/assets/images/demo1.png)
+![Homepage2](/public/assets/images/demo2.png)
 
  ## Description
   An application that generates delightful recipes for the holiday season or any type of occassion/purpose using the ingredients provided by the user.
 
-[Click here](https://aqueous-oasis-84460.herokuapp.com) to see a live demo of this project.
+[Click here](https://proj3ct2.herokuapp.com/) to see a live demo of this project.
   
   ## Table of Contents
   1. [Technologies](#technologies)
@@ -38,7 +40,6 @@
 
   ![Generated Menu Screenshot (2EDIT!)](/public/Assets/images/sampleRecipeTortellini.jpg)
 
-  >The recipe(s) above has/have been generated with the corresponding user input of ingredients (2EDIT!). 
 
   ## Contribution
   - [Alexandra Stricklin](https://github.com/stricklin927) (Front-end)
