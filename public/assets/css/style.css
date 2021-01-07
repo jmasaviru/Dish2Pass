@@ -16,8 +16,9 @@
 }
 
 #suggest {
-    color: rgb(222, 113, 45);
+    color:white;
     font-size: 20px;
+    border-radius: 30px;
 }
 /* END Navigation Bar */
 
@@ -71,21 +72,29 @@
     height: 700px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/dinnertable.jpg");
+    background-image: url("/assets/images/foodPic.jpg");
     background-size: cover;
     background-position: center;
 }
+
 #aboutapp {
     padding: 30px;
     margin-left: 100px;
     margin-top: 70px;
     
 }
+
+#foodSelfie {
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left: 60%;
+}
 /* END Family Eating Section */
-
-
-
-
 
 
 /* Footer */
