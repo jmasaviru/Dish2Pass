@@ -23,6 +23,10 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       allowNull: true
     },
+    type: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
     createdAt: {
       type: DataTypes.DATE,
       defaultValue: sequelize.literal("NOW()")
