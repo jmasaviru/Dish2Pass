@@ -9,8 +9,18 @@ router.get("/", (req, res) => {
   res.render("index", { layout: "main" });
 });
 
+// router.get("/suggestions", (req, res) => {
+//   res.render("suggestions", { layout: "main" });
+// });
+
 router.get("/suggestions", (req, res) => {
-  res.render("suggestions", { layout: "main" });
+  db.RecipeTwo.findAll({}).then(data => {
+    const hbsObject = {
+      recipetwos: data
+    };
+    console.log(hbsObject);
+    res.render("suggestions", hbsObject);
+  });
 });
 
 router.get("/search", (req, res) => {
