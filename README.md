@@ -40,6 +40,8 @@
 
   ![Generated Recipes Screenshot](/public/assets/images/pastaRecipes.png)
 
+  >The above recipes were rendered from a user input of 'Pasta' on the search box. 
+
 
   ## Contribution
   - [Alexandra Stricklin](https://github.com/stricklin927) (Front-end)
@@ -58,6 +60,6 @@
 
 * Video link for demonstration : https://drive.google.com/file/d/1g0t43tZGRUeZPT8YCbwyo0cLJ7Vm3ROC/view
 
-* Heroku link : https://aqueous-oasis-84460.herokuapp.com/
+* Heroku link (Mirror) : https://aqueous-oasis-84460.herokuapp.com/
 
 * Dish2Pass GitHub repository URL: (https://github.com/jmasaviru/Dish2Pass)
