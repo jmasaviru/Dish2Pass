@@ -5,7 +5,7 @@
  ## Description
   An application that generates delightful recipes for the holiday season or any type of occassion/purpose using the ingredients provided by the user.
 
-[Click here](https://proj3ct2.herokuapp.com/) to see a live demo of this project.
+[Click here](https://proj3ct2.herokuapp.com/) || [Mirror](https://aqueous-oasis-84460.herokuapp.com/) to see a live demo of this project.
   
   ## Table of Contents
   1. [Technologies](#technologies)
@@ -36,7 +36,7 @@
   * Heroku
 
   ## Usage
-  The user simply navigates to the website and registers. The user then inputs the ingredients available/accessible or which he/she intends to use. Recipes are generated via an API call and the resulting recipes are saved in the favourites page.
+  The user simply navigates to the website inputs the type of food they want to search for. (Presently, the database only serves "duck," "pasta," and "burger.") Recipes are generated via an API call to the database and the resulting meal summaries are displayed and are also saved for display on the community favourites page.
 
   ![Generated Menu Screenshot (2EDIT!)](/public/Assets/images/sampleRecipeTortellini.jpg)
 
@@ -55,7 +55,5 @@
   * If you have questions, email me at: jmasaviru@gmail.com
 
 ## Links
-
-* Video link for demonstration (2EDIT!): https://drive.google.com/file/d/1ZaSaQK2tSm5JrfMJraZW_0KiJDIBa2vk/view
 
 * Dish2Pass GitHub repository URL: (https://github.com/jmasaviru/Dish2Pass)
