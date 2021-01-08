@@ -36,9 +36,9 @@
   * Heroku
 
   ## Usage
-  The user simply navigates to the website inputs the type of food they want to search for. (Presently, the database only serves "duck," "pasta," and "burger.") Recipes are generated via an API call to the database and the resulting meal summaries are displayed and are also saved for display on the community favourites page.
+  The user simply navigates to the website inputs the type of food they want to search for on the search box. (Presently, the database only serves "duck," "pasta," and "burger.") Recipes are generated via an API call to the database and the resulting meal summaries are displayed and are also saved for display on the community favourites pagee. Currently a maximum of five recipes are rendered. The application also provides the user popular recipe suggestions via a 'suggestions' button.
 
-  ![Generated Menu Screenshot (2EDIT!)](/public/Assets/images/sampleRecipeTortellini.jpg)
+  ![Generated Recipes Screenshot)](/public/Assets/images/pastaRecipes.png)
 
 
   ## Contribution
@@ -55,5 +55,9 @@
   * If you have questions, email me at: jmasaviru@gmail.com
 
 ## Links
+
+* Video link for demonstration : https://drive.google.com/file/d/1g0t43tZGRUeZPT8YCbwyo0cLJ7Vm3ROC/view
+
+* Heroku link : https://aqueous-oasis-84460.herokuapp.com/
 
 * Dish2Pass GitHub repository URL: (https://github.com/jmasaviru/Dish2Pass)
