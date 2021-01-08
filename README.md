@@ -38,7 +38,7 @@
   ## Usage
   The user simply navigates to the website inputs the type of food they want to search for on the search box. (Presently, the database only serves "duck," "pasta," and "burger.") Recipes are generated via an API call to the database and the resulting meal summaries are displayed and are also saved for display on the community favourites pagee. Currently a maximum of five recipes are rendered. The application also provides the user popular recipe suggestions via a 'suggestions' button.
 
-  ![Generated Recipes Screenshot)](/public/Assets/images/pastaRecipes.png)
+  ![Generated Recipes Screenshot](/public/assets/images/pastaRecipes.png)
 
 
   ## Contribution
