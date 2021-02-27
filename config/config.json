@@ -1,20 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "rootroot",
-    "database": "dish2pass_db",
-    "host": "127.0.0.1",
+    "username": "d7z44d1aosohpz7l",
+    "password": "i5pyli6z2vo7q3va",
+    "database": "zqccdm99j8vsmdop",
+    "host": "dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "rootroot",
-    "database": "dish2pass_db",
-    "host": "127.0.0.1",
+    "username": "d7z44d1aosohpz7l",
+    "password": "i5pyli6z2vo7q3va",
+    "database": "zqccdm99j8vsmdop",
+    "host": "dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL",
+    "username": "d7z44d1aosohpz7l",
+    "password": "i5pyli6z2vo7q3va",
+    "database": "zqccdm99j8vsmdop",
+    "host": "dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
